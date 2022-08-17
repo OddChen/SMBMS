@@ -15,17 +15,35 @@
       <scope>test</scope>
     </dependency>
 
+<!--    <dependency>-->
+<!--      <groupId>javax.servlet</groupId>-->
+<!--      <artifactId>servlet-api</artifactId>-->
+<!--      <version>2.5</version>-->
+<!--      <scope>provided</scope>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>javax.servlet.jsp</groupId>-->
+<!--      <artifactId>javax.servlet.jsp-api</artifactId>-->
+<!--      <version>2.3.3</version>-->
+<!--    </dependency>-->
+
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
-      <scope>provided</scope>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>javax.servlet.jsp-api</artifactId>
-      <version>2.3.3</version>
+      <groupId>jakarta.servlet.jsp</groupId>
+      <artifactId>jakarta.servlet.jsp-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>2.0.0</version>
     </dependency>
 
     <dependency>
@@ -34,16 +52,22 @@
       <version>8.0.30</version>
     </dependency>
 
-    <dependency>
-      <groupId>javax.servlet.jsp.jstl</groupId>
-      <artifactId>jstl-api</artifactId>
-      <version>1.2</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>javax.servlet.jsp.jstl</groupId>-->
+<!--      <artifactId>jstl-api</artifactId>-->
+<!--      <version>1.2</version>-->
+<!--    </dependency>-->
 
     <dependency>
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>

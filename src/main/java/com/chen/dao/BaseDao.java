@@ -47,7 +47,7 @@ public class BaseDao {
         return  connection;
     }
 
-    // 查询公共类
+    // 查询公共类 connection,sql, params, pstm, resultSet
     public static ResultSet execute(Connection connection, String sql, Object[] params, PreparedStatement preparedStatement, ResultSet resultSet) throws SQLException {
         preparedStatement = connection.prepareStatement(sql);
 

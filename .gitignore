@@ -3,13 +3,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+src/main/resources/db.properties
+
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/google-java-format.xml
-.idea/libraries/
-.idea/dbnavigator.xml
+.idea/
 *.iws
 *.iml
 *.ipr

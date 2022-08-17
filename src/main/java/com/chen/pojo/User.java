@@ -112,7 +112,6 @@ public class User {
     public Integer getUserRole() {
         return userRole;
     }
-
     public void setUserRole(Integer userRole) {
         this.userRole = userRole;
     }

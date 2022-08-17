@@ -24,12 +24,22 @@ public class UserDaoImpl implements  UserDao{
                 if (resultSet.next()) {
                     user = new User();
 
-                    user.setId((long) resultSet.getInt("id"));
+                    user.setId(resultSet.getLong("id"));
                     user.setUserCode(resultSet.getString("userCode"));
+                    user.setUserName(resultSet.getString("userName"));
+                    user.setUserPassword(resultSet.getString("userPassword"));
+                    user.setBirthday(resultSet.getDate("birthday"));
+                    user.setAddress(resultSet.getString("address"));
+                    user.setGender(resultSet.getInt("gender"));
+                    user.setPhone(resultSet.getString("phone"));
+                    user.setUserRole(resultSet.getInt("userRole"));
+                    user.setCreatedBy(resultSet.getLong("createdBy"));
+                    user.setCreateDate(resultSet.getDate("creationDate"));
+                    user.setModifyBy(resultSet.getLong("modifyBy"));
+                    user.setModifyDate(resultSet.getDate("modifyDate"));
                 }
             BaseDao.closeResource(null, pstm, resultSet);
         }
-
         return  user;
     }
 }
