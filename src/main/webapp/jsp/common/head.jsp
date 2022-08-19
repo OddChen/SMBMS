@@ -29,11 +29,12 @@
          <h2 class="leftH2"><span class="span1"></span>功能列表 <span></span></h2>
          <nav>
              <ul class="list">
-                 <li ><a href="${pageContext.request.contextPath}/bill/billlist">订单管理</a></li>
-              <li><a href="${pageContext.request.contextPath}/provider/providerlist">供应商管理</a></li>
-              <li><a href="${pageContext.request.contextPath}/user/userlist">用户管理</a></li>
-              <li><a href="${pageContext.request.contextPath}/user/pwdModify">密码修改</a></li>
+                 <li ><a href="${pageContext.request.contextPath}/jsp/billlist.jsp">订单管理</a></li>
+              <li><a href="${pageContext.request.contextPath}/jsp/providerlist.jsp">供应商管理</a></li>
+              <li><a href="${pageContext.request.contextPath}/jsp/userlist.jsp">用户管理</a></li>
+              <li><a href="${pageContext.request.contextPath}/jsp/pwdmodify.jsp">密码修改</a></li>
               <li><a href="javascript:if(confirm('您真的要退出吗？')){location.href='${pageContext.request.contextPath}/logout.do'}">退出系统</a></li>
              </ul>
          </nav>
      </div>
+ </section>

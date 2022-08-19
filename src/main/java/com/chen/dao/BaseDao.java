@@ -67,7 +67,7 @@ public class BaseDao {
         }
 
         int updateRows = preparedStatement.executeUpdate();
-        return  updateRows;
+        return updateRows;
     }
 
     // 释放资源
